@@ -1,0 +1,449 @@
+.header{
+  background: url("https://3.downloader.disk.yandex.ru/preview/08bf3e6b656f15558797c023b6aef06fa6bce95f42815ac371d31d1f446c5ceb/inf/sChqc7cRXYNd5tnqT8kI4ORY87InEZz69mF3LT-rerLhFxsi18qpbMf49XcNFKrF0eBZ15r_eDLS1b_JeJsokA%3D%3D?uid=393257714&filename=back.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=1903x920");
+  height: 587px;
+  background-size: 100% 100%;
+  font-family: 'Vollkorn Regular', arial;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.roboto{
+  background: url("https://4.downloader.disk.yandex.ru/preview/f142d26bf82cf6d73440b70aac90a66d97a516e10b7818e5a2c771277415807f/inf/nm5pQw2Tk4guhnpwa6hYuIanKLV41ifiv1eOrVh0A_PRPaabHI-mrAHXxCNHzqYGNJi8v8USOoJ_SJLcpDNpyg%3D%3D?uid=393257714&filename=%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE0%20%283%29.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1903x920");
+  height: 519px;
+  max-width: 471px;
+  margin-left: 150px;
+  float: left;
+}
+.headline{
+  float: right;
+  font-size: 65px;
+  margin-top: 50px;
+  margin-right: 150px;
+  text-align: right;
+  font-family: 'Vollkorn SC', serif;
+}
+.navig{
+  background-color: #85B15C;
+  height: 35px;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 8px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+/*Анимация навигации */
+.navig a{
+  position: relative;
+}
+.navig a:after{
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #2b2a2c;
+  transition: width .3s ease-in;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navig a:hover:after,
+.navig a:focus:after{
+  width: 100%;
+}
+.socials img{
+  float: right;
+  height: 80px;
+  margin-top: -70px;
+  margin-right: 10px;
+}
+
+/*Блок обо мне*/
+.aboutME{
+  height: 500px;
+  background-color: rgba(0, 89, 148, 0.41);
+  text-align: center;
+}
+h1{
+  margin: 0px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 42px;
+}
+.aboutME p{
+  font-weight: normal;
+  font-size: 25px;
+  text-align: justify;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+}
+b{
+  color: #CD0074;
+}
+
+.gradient{
+  height: 100px;
+  background: linear-gradient(180deg, rgba(0, 89, 148, 0.41) 0%, rgba(141, 141, 141, 0.51) 100%);
+}
+
+/*Таблица с услугами и ценами*/
+.price{
+  height: 600px;
+  background: rgba(141, 141, 141, 0.51);
+  text-align: center;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 25px;*/
+  text-align: left;
+}
+th{
+  font-size: 26px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 10px;
+}
+td{
+  border: 1px solid black;
+  font-size: 19px;
+  padding: 5px 10px;
+}
+td:nth-child(2){
+  text-align: center;
+}
+
+.gradient2{
+  height: 100px;
+  background: linear-gradient(180deg, rgba(141, 141, 141, 0.51) 0%, rgba(0, 89, 148, 0.41) 100%);
+}
+
+/*Отзывы*/
+.reviews{
+  height: 750px;
+  background-color: rgba(0, 89, 148, 0.41);
+  text-align: center;
+}
+.recalls{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.call{
+  border: 1px solid black;
+  height: 200px;
+  max-width: 600px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 2, 2, 0.5);
+  margin-bottom: 50px;
+  float: left;
+  margin: 25px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.photo{
+  border: 1px solid black;
+  border-radius: 50px;
+  min-width: 150px;
+  height: 150px;
+  float: left;;
+  margin: 25px 25px;
+}
+.text{
+  text-align: left;
+  font-size: 19px;
+  font-style: italic;
+}
+.photo1{
+  background: url("https://1.downloader.disk.yandex.ru/preview/c4d34ee0f4cba29019bb77c3bbfce7c4cfc17ae208d92e03f87cad31a354a5cb/inf/_ZqzgyWTJeH1VyF9FouOItM51X_x-hTeBZS8vOWD6XEcnJzzXwbcMsMwMrFrXxZuHxiIimmybxWoZJmEi54ZfA%3D%3D?uid=393257714&filename=Screenshot_2019-03-15-10-33-34-168_com.viber.voip.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1903x920");
+  background-size: 100%;
+}
+.photo2{
+  background: url("https://4.downloader.disk.yandex.ru/preview/2e319c7a658d0cab8ee094316f891c4cbe7cdf5e60eafe0dccd5ea02c1757e70/inf/LVa7K7H5W3PKU9DgMvZ6OHA3KiV_7jx9rZKOFeb2AU8BEfhPQvlST1kD-Qdo-LHIf3byIlK8w2oTleiygtcwhg%3D%3D?uid=393257714&filename=07cfc479dba31b71288d1c28d57baf7a.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1903x920");
+  background-size: 100%;
+}
+.photo3{
+  background: url("https://3.downloader.disk.yandex.ru/preview/ec4ee34e191236473789351394c204c8db67d57650f53759a36f3ba98043e3dd/inf/JDFlNFYP-ZpuI6gn91z5nsRtJtG3rlylEFhVAVHVDYtuIg1VsSAziDQz8lh2MxSzN_oGXVaXoe6qN_g4F_iEkA%3D%3D?uid=393257714&filename=Screenshot_2019-03-22-09-51-49-304_com.viber.voip.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1903x920");
+  background-size: 100%;
+}
+
+/*Контакты*/
+.contacts{
+  height: 650px;
+  background: rgba(141, 141, 141, 0.51);
+  text-align: center;
+  
+}
+iframe{
+ 
+  margin: 20px;
+  
+}
+.messengers{
+  font-size: 25px;
+ 
+  
+}
+.wrapper{
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+/*Футер*/
+.footer{
+  height: 230px;
+  background-color: #898080;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+}
+.donations{
+  width: 33%;
+  float: left;
+}
+
+.socials_footer{
+  width: 33.3%;
+  float: left;
+}
+.up{
+  
+   float: right;
+   text-align:right;
+   height: 213px;
+
+}
+.imgUp{
+  margin: 20px;
+  margin-top: 70px;
+  border-radius: 50%;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  -transition: 0.6s;
+}
+.imgUp:hover{
+  box-shadow: 10px 17px 34px 6px #ffa812;
+}
+a > img{
+  border-radius: 50%;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  -transition: 0.6s;
+}
+a > img:hover{
+  box-shadow: 10px 17px 34px 6px #ffa812;
+}
+
+/*АДАПТИВНОСТЬ*/
+@media(max-width: 1689px){
+    .reviews{
+  height: 950px;
+}
+}
+
+@media(max-width: 1280px){
+    .aboutME p{
+    width: 95%;
+  }
+    .aboutME{
+    height: 500px;
+}
+.reviews{
+  height: 950px;
+}
+  .donations{
+    width: 50%;
+  }
+  .socials_footer{
+    width: 25%;
+  }
+  .headline{
+    margin-right: 20px;
+    font-size: 60px;
+
+  }
+    .roboto{
+    margin-left: 15px;
+  }
+}
+
+@media(max-width: 1025px){
+  .roboto{
+    margin-left: 5px;
+  }
+  .headline{
+    margin-right: 25px;
+  }
+  .reviews{
+  height: 950px;
+}
+}
+
+@media(max-width: 992px){
+  .roboto{
+    display: none;
+  }
+  .headline{
+  font-size: 50px;
+   width: 160%;
+}
+  .aboutME p{
+    width: 95%;
+  }
+  .aboutME{
+    height: 600px;
+  }
+  .reviews{
+  height: 1100px;
+}
+  .call{
+    height: 250px;
+  }
+  .footer{
+    height: 250px;}
+}
+@media(max-width: 819px){
+  .footer{
+    height: 350px;}
+}
+@media(max-width: 748px){
+  .socials{
+    display: none;
+  }
+  .up{
+    display: none;
+  }
+    .footer{
+    height: 400px;}
+}
+}
+@media(max-width: 768px){
+  .headline{
+    width: 140%;
+  }
+  .roboto{
+    display: none;
+  }
+   .aboutME{
+    height: 750px;
+  }
+    .call{
+    height: 270px;
+  }
+    .reviews{
+  height: 1150px;
+}
+  .socials{
+    display: none;
+  }
+}
+
+@media(max-width: 600px){
+    .headline{
+    width: 120%;
+  }
+  
+  .navig{
+    height:60px;
+  }
+   .aboutME{
+    height: 800px;
+  }
+  .price{
+    height: 700px;
+  }
+  .photo{
+    display: none;
+  }
+  .call{
+    padding-left:10px;
+  }
+  iframe{
+    display: none;
+  }
+  .wrapper{
+    display: block;
+  }
+  .contacts{
+    height: 450px;
+  }
+}
+@media(max-width:550px){
+  .footer{
+    display: none;
+  }
+}
+
+/*
+Форма обратной связи
+*/
+#inline {
+   margin-left:30px;
+   width:80%;
+   margin:0 auto;
+   background:#FFF;
+   padding:10px 20px;
+}
+.txt {
+   display:inline-block;
+   color:#676767;
+   width:190px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+}
+.txtarea {
+   display:inline-block;
+   color:#676767;
+   width:617px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+   height:80px;
+}
+.txt:focus, .txtarea:focus {
+   border-style:solid;
+   border-color:#BABABA;
+   color:#444;
+}
+input.error, textarea.error {
+    border-color:#973D3D;
+    border-style:solid;
+    background:#F0BEBE;
+    color:#A35959;
+}
+input.error:focus, textarea.error:focus {
+    border-color:#973D3D;
+    color:#A35959;
+}
+#send { 
+    color:#FFFFFF;
+    display:block;
+    cursor:pointer;
+    padding:5px 11px;
+    font-size:1.2em;
+    border:solid 1px #F9F9F9;
+    border-radius:2px;
+    background:#70C6B9;
+    width:210px;
+    margin-bottom:20px;
+}
+#send:hover {
+    background:#979797;
+}
+/*
+Форма обратной связи
+*/
